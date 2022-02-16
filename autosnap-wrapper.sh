@@ -1,7 +1,7 @@
 #!/usr/bin/bash
+# authors: foundobjects & i13e 
 #
 # timeshift-autosnap helper for your AUR helper (autosnap-wrapper.sh)
-#
 # this helper code stops your AUR helper + timeshift-autosnap from taking multiple snapshots during the same update
 
 # Automatically set which AUR helper to use
