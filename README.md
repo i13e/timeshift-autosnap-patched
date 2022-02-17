@@ -37,11 +37,11 @@ our AUR helper is completely done, our wrapper script removes our lockfile as a 
 **All of these things only ever happen if our AUR helper is launched through `autosnap-wrapper` and '__AUTOSNAP_LOCK'
 is defined; otherwise timeshift-autosnap is invoked normally without modification**
 
-# Notes
+### Notes
 *  Works both in `BTRFS` and `RSYNC` mode.
 *  This script is made with Arch and Arch based distros in mind but if there is any interest it should be easily ported to other distros.
 *  You can manually set the AUR helper you are using by writing in your `~/.profile`: `export AUR_HELPER=EXAMPLE`, replacing EXAMPLE with
 the one you intend to use (in lowercase).
 
-# Contribution
+### Contribution
 *  All new ideas and contributons are welcome! I'd appreciate any suggestions which make this patch easier to use.
