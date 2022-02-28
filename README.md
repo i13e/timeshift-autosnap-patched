@@ -1,6 +1,6 @@
 # timeshift-autosnap-patched
 Timeshift auto-snapshot script which runs before package upgrade using Pacman hook. **Patched to take only one snapshot during
-an update when using an AUR helper. Run `autosnap-wrapper` to perform an update with the patch.**
+an update utilizing an AUR helper. Run `autosnap-wrapper` to perform an update with the patch.**
 
 ### Supported AUR Helpers
 *  Paru
